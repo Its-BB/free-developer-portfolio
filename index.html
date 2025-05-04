@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOUR TITLE HERE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="hero">
+        <div class="logo">
+            <img src="logoE.jpeg" alt="Your Logo">
+        </div>
+        <h1>YOUR THINKS</h1>
+        <p>YOUR THINKS</p>
+        <button class="cta-btn" onclick="document.getElementById('work').scrollIntoView()">Explore My Work</button>
+    </header>
+
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <p>randomblahblah randomblahblah randomblahblah randomblahblah randomblahblah randomblahblah randomblahblah
+            randomblahblah randomblahblah randomblahblah.</p>
+    </section>
+
+    <section class="work" id="work">
+        <h2>My Masterpieces</h2>
+        <div class="video-grid">
+            <div class="video-card">
+                <img src="" alt="Project 1">
+                <div class="play-btn"></div>
+            </div>
+            <div class="video-card">
+                <img src="" alt="Project 2">
+                <div class="play-btn"></div>
+            </div>
+            <div class="video-card">
+                <img src="" alt="Project 3">
+                <div class="play-btn"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2>My Arsenal</h2>
+        <div class="skills-grid">
+            <div class="skill-card">YOUR THINGS</div>
+            <div class="skill-card">YOUR THINGS</div>
+            <div class="skill-card">YOUR THINGS</div>
+            <div class="skill-card">YOUR THINGS</div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Hit Me Up</h2>
+        <div class="social-links">
+            <a href="https://twitter.com/yourusername" target="_blank" class="social-link">
+                <span>X</span> @YourUsername
+            </a>
+            <a href="https://discord.gg/yourinvite" target="_blank" class="social-link">
+                <span>Discord</span> you@discord
+            </a>
+            <a href="mailto:yourname@example.com" class="social-link">
+                <span>Email</span> yourname@example.com
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 YOUR. Crafted with Passion.</p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('.video-card').forEach(card => {
+            card.addEventListener('click', () => {
+                alert('Add your video embed here, bro!');
+            });
+        });
+    </script>
+</body>
+
+</html>
