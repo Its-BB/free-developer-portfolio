@@ -27,7 +27,7 @@ A sleek, responsive portfolio website template with a dark theme and neon gradie
 
 1. **Clone the repository**
    ```bash
-   git clone [https://github.com/yourusername/portfolio-template.git](https://github.com/Its-BB/free-developer-portfolio.git)
+   git clone https://github.com/Its-BB/free-developer-portfolio.git
    ```
 
 2. **Customize the content**
