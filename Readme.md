@@ -57,7 +57,7 @@ The template uses a gradient between cyan (`#00D4FF`) and magenta (`#FF007A`). T
 
 For each project you want to showcase:
 
-1. Duplicate a `.video-card` div in the "My Masterpieces" section
+1. Duplicate `.video-card` div in the "My Masterpieces" section
 2. Update the image source and alt text
 3. Modify the JavaScript to handle video embeds (YouTube, Vimeo, etc.)
 
